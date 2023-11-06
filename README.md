@@ -14,8 +14,8 @@ In this task, we will do sentence-level classification. Question Classification 
 The dataset is created from [TREC](https://www.kaggle.com/datasets/thedevastator/the-trec-question-classification-dataset-a-longi?resource=download) dataset.
 
 Using the pre-trained `word2vec` vectors will also require downloading the binary file from
-[GENSIM]
-
+[GENSIM](https://radimrehurek.com/gensim/models/word2vec.html)
+Run
 '''
 word2vecs_embeddings = gensim.downloader.load('word2vec-google-news-300')
 word2vecs_embeddings.save('data/word2vec-google-news-300.bin')
